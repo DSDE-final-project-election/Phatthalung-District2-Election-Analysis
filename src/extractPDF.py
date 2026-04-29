@@ -7,10 +7,10 @@ def split_election_pdfs(input_pdf_path, const_output_path, partylist_output_path
     
     # กำหนด Index ย่อยในแต่ละชุด (เริ่มนับจาก 0)
     # แบบแบ่งเขต คือหน้า 1-2 ของชุด (Index 0, 1)
-    const_indices = [0, 1] 
+    const_indices = [0] 
     
     # แบบบัญชีรายชื่อ คือหน้า 3-6 ของชุด (Index 2, 3, 4, 5)
-    partylist_indices = [2, 3, 4, 5] 
+    partylist_indices = [2, 3, 4] 
 
     with open(input_pdf_path, 'rb') as infile:
         reader = PyPDF2.PdfReader(infile)
@@ -53,8 +53,8 @@ def split_election_pdfs(input_pdf_path, const_output_path, partylist_output_path
 # ==========================================
 # วิธีใช้งาน: ระบุชื่อไฟล์ต้นฉบับ และชื่อไฟล์ปลายทางที่ต้องการ
 # ==========================================
-input_file = '46ตำบลสมหวัง.pdf'
-const_file = 'Constituency_สมหวัง.pdf' # ชื่อไฟล์แบบแบ่งเขตที่จะได้
-partylist_file = 'PartyList_สมหวัง.pdf' # ชื่อไฟล์แบบบัญชีรายชื่อที่จะได้
+input_file = './data/raw/46ตำบลสมหวัง.pdf'
+const_file = './data/processed/Constituency_สมหวัง.pdf' # ชื่อไฟล์แบบแบ่งเขตที่จะได้
+partylist_file = './data/processed/PartyList_สมหวัง.pdf' # ชื่อไฟล์แบบบัญชีรายชื่อที่จะได้
 
 split_election_pdfs(input_file, const_file, partylist_file)
