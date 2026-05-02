@@ -22,6 +22,7 @@ from PIL import Image
 from tqdm import tqdm
 
 import config
+from paths import json_output_path, source_key_from_processed
 
 
 def _ensure_output_dir() -> None:
@@ -368,11 +369,7 @@ def parse_election_text(raw_text: str, names_list: list[str]) -> dict[str, Any]:
 
 def normalize_source_file_name(pdf_path: Path, form_type: str) -> str:
     """Convert a split PDF filename back to the original raw PDF filename."""
-    filename = Path(pdf_path).name
-    prefix = config.FORM_OUTPUT_PREFIXES[form_type]
-    if filename.startswith(prefix):
-        return filename[len(prefix) :]
-    return filename
+    return source_key_from_processed(Path(pdf_path), form_type)
 
 
 def _page_count(pdf_path: Path) -> int:
@@ -517,16 +514,19 @@ def _combined_issues(result: dict[str, Any]) -> list[str]:
 
 
 def save_outputs(results: list[dict[str, Any]], form_type: str) -> None:
-    """Save form results to CSV and JSON."""
+    """Save combined CSV and per-source JSON results."""
     _ensure_output_dir()
     names_list = config.FORM_NAMES[form_type]
     output_files = config.OUTPUT_FILES[form_type]
     columns = [*config.BASE_CSV_COLUMNS, *names_list]
     rows: list[dict[str, Any]] = []
+    results_by_source: dict[str, list[dict[str, Any]]] = {}
 
     for result in results:
+        source_file = str(result.get(config.FIELD_SOURCE_FILE, "unknown.pdf"))
+        results_by_source.setdefault(source_file, []).append(result)
         row: dict[str, Any] = {
-            config.FIELD_SOURCE_FILE: result.get(config.FIELD_SOURCE_FILE),
+            config.FIELD_SOURCE_FILE: source_file,
             config.FIELD_UNIT_INDEX: result.get(config.FIELD_UNIT_INDEX),
             config.FIELD_STATUS: result.get(
                 config.FIELD_STATUS,
@@ -559,11 +559,13 @@ def save_outputs(results: list[dict[str, Any]], form_type: str) -> None:
         index=False,
         encoding="utf-8-sig",
     )
-    with (config.OUTPUT_DIR / output_files["json"]).open(
-        "w",
-        encoding="utf-8",
-    ) as output_file:
-        json.dump(results, output_file, ensure_ascii=False, indent=2)
+
+    for source_file, source_results in results_by_source.items():
+        with json_output_path(form_type, source_file).open(
+            "w",
+            encoding="utf-8",
+        ) as output_file:
+            json.dump(source_results, output_file, ensure_ascii=False, indent=2)
 
 
 def run_ocr(form_type: str) -> list[dict[str, Any]]:
@@ -580,7 +582,7 @@ def run_ocr(form_type: str) -> list[dict[str, Any]]:
 
     logger = logging.getLogger(__name__)
     results: list[dict[str, Any]] = []
-    pdf_paths = sorted(input_dir.glob("*.pdf"))
+    pdf_paths = sorted(path for path in input_dir.rglob("*.pdf") if path.is_file())
     logger.info("Starting OCR for %s with %s PDF(s)", form_type, len(pdf_paths))
 
     for pdf_path in pdf_paths:

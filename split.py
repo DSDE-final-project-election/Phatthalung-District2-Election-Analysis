@@ -10,6 +10,7 @@ from typing import Any
 import PyPDF2
 
 import config
+from paths import iter_raw_pdfs, processed_pdf_path
 
 
 def split_election_pdfs(
@@ -57,7 +58,7 @@ def split_election_pdfs(
         total_units,
     )
     return {
-        "input_file": input_pdf_path.name,
+        "input_file": str(input_pdf_path),
         "total_pages": total_pages,
         "total_units": total_units,
         "constituency_pages": len(const_writer.pages),
@@ -75,18 +76,18 @@ def split_all(logger: logging.Logger | None = None) -> dict[str, int]:
     config.PROCESSED_PARTY_DIR.mkdir(parents=True, exist_ok=True)
 
     summary = {"processed": 0, "skipped": 0, "failed": 0, "total": 0}
-    pdf_paths = sorted(config.RAW_DIR.glob("*.pdf"))
+    pdf_paths = iter_raw_pdfs()
     active_logger.info("Found %s raw PDF(s) in %s", len(pdf_paths), config.RAW_DIR)
 
     for input_pdf_path in pdf_paths:
         summary["total"] += 1
-        const_output_path = (
-            config.PROCESSED_CONST_DIR
-            / f"{config.FORM_OUTPUT_PREFIXES[config.FORM_CONSTITUENCY]}{input_pdf_path.name}"
+        const_output_path = processed_pdf_path(
+            input_pdf_path,
+            config.FORM_CONSTITUENCY,
         )
-        partylist_output_path = (
-            config.PROCESSED_PARTY_DIR
-            / f"{config.FORM_OUTPUT_PREFIXES[config.FORM_PARTYLIST]}{input_pdf_path.name}"
+        partylist_output_path = processed_pdf_path(
+            input_pdf_path,
+            config.FORM_PARTYLIST,
         )
 
         if const_output_path.exists() and partylist_output_path.exists():

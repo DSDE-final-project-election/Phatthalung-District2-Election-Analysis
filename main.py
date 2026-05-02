@@ -21,6 +21,7 @@ import pandas as pd
 import config
 from clean import clean_result
 from ocr import reparse_results, save_outputs, run_ocr
+from paths import json_output_glob
 from split import split_all
 from validate import run_validate
 
@@ -50,15 +51,25 @@ def setup_logging() -> logging.Logger:
 
 
 def load_results(form_type: str) -> list[dict[str, Any]]:
-    """Load saved JSON results for one form type."""
-    json_path = config.OUTPUT_DIR / config.OUTPUT_FILES[form_type]["json"]
-    if not json_path.exists():
-        raise FileNotFoundError(f"Missing results file: {json_path}")
-    with json_path.open("r", encoding="utf-8") as input_file:
-        data = json.load(input_file)
-    if not isinstance(data, list):
-        raise ValueError(f"Results file is not a list: {json_path}")
-    return data
+    """Load saved per-source JSON results for one form type."""
+    json_paths = sorted(config.OUTPUT_DIR.glob(json_output_glob(form_type)))
+    if not json_paths:
+        legacy_path = config.OUTPUT_DIR / config.OUTPUT_FILES[form_type]["json"]
+        if legacy_path.exists():
+            json_paths = [legacy_path]
+        else:
+            raise FileNotFoundError(
+                f"Missing results files: {config.OUTPUT_DIR / json_output_glob(form_type)}"
+            )
+
+    results: list[dict[str, Any]] = []
+    for json_path in json_paths:
+        with json_path.open("r", encoding="utf-8") as input_file:
+            data = json.load(input_file)
+        if not isinstance(data, list):
+            raise ValueError(f"Results file is not a list: {json_path}")
+        results.extend(data)
+    return results
 
 
 def clean_results(

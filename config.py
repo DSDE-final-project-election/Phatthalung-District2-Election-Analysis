@@ -84,6 +84,10 @@ FORM_OUTPUT_PREFIXES = {
     FORM_CONSTITUENCY: "Constituency_",
     FORM_PARTYLIST: "PartyList_",
 }
+FORM_JSON_PREFIXES = {
+    FORM_CONSTITUENCY: "constituency",
+    FORM_PARTYLIST: "partylist",
+}
 FORM_INPUT_DIRS = {
     FORM_CONSTITUENCY: PROCESSED_CONST_DIR,
     FORM_PARTYLIST: PROCESSED_PARTY_DIR,
@@ -115,6 +119,11 @@ OUTPUT_FILES = {
         "json": PARTYLIST_JSON,
     },
 }
+
+# ==================== SOURCE NAMING ====================
+UNKNOWN_DISTRICT_NAME = "unknown_district"
+SOURCE_FILENAME_PREFIX_PATTERN = r"^\d+"
+OUTPUT_FILENAME_INVALID_CHARS_PATTERN = r'[<>:"/\\|?*]+'
 
 # ==================== SCHEMA FIELDS ====================
 FIELD_SOURCE_FILE = "source_file"
