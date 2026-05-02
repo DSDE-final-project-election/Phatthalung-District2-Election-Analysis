@@ -1,0 +1,5 @@
+﻿source_file,unit_index,const_ballot_total,partylist_ballot_total,diff,cross_status,cross_issues
+24ตำบลมะกอกเหนือ(เทศบาล).pdf,0,400,400,0,OK,
+24ตำบลมะกอกเหนือ(เทศบาล).pdf,1,307,307,0,OK,
+24ตำบลมะกอกเหนือ(เทศบาล).pdf,2,359,374,-15,MISMATCH,ballot_total differs between forms
+24ตำบลมะกอกเหนือ(เทศบาล).pdf,3,229,229,0,OK,

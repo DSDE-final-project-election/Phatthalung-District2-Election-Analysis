@@ -93,3 +93,5 @@
 2026-05-02 19:33:14,961 | INFO | root | Finished pipeline step: ocr
 2026-05-02 19:38:13,547 | INFO | root | Starting pipeline step: clean
 2026-05-02 19:38:13,588 | INFO | root | Finished pipeline step: clean
+2026-05-02 20:12:09,899 | INFO | root | Starting pipeline step: validate
+2026-05-02 20:12:10,023 | INFO | root | Finished pipeline step: validate
