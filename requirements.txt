@@ -1,0 +1,10 @@
+PyPDF2
+pymupdf
+openai
+pandas
+tqdm
+Pillow
+scipy
+numpy
+python-dotenv
+requests
