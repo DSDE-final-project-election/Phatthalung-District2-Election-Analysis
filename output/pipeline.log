@@ -5,3 +5,40 @@
 2026-05-02 21:44:31,397 | WARNING | ocr | Typhoon OCR call failed on attempt 1/3: HTTPSConnectionPool(host='api.opentyphoon.ai', port=443): Read timed out. (read timeout=120). Retrying in 1s.
 2026-05-02 21:46:32,614 | WARNING | ocr | Typhoon OCR call failed on attempt 2/3: HTTPSConnectionPool(host='api.opentyphoon.ai', port=443): Read timed out. (read timeout=120). Retrying in 2s.
 2026-05-02 21:48:34,986 | WARNING | ocr | OCR issue in PartyList_46ตำบลสมหวัง.pdf unit 6: Typhoon OCR call failed after retries
+2026-05-05 18:01:13,459 | INFO | root | Starting pipeline step: split
+2026-05-05 18:01:13,462 | INFO | root | Found 19 raw PDF(s) in C:\Y3T2\DSDE\Final\Phatthalung-District2-Election-Analysis\data\raw
+2026-05-05 18:01:13,463 | INFO | root | Skip 46ตำบลสมหวัง.pdf because split outputs already exist
+2026-05-05 18:01:13,466 | INFO | root | Skip 47ตำบลชะรัด.pdf because split outputs already exist
+2026-05-05 18:01:13,503 | INFO | root | Split 21ตำบลแหลมโตนด.pdf into 9 constituency pages and 27 party-list pages (9 units)
+2026-05-05 18:01:13,537 | INFO | root | Split 22ตำบลทะเลน้อย.pdf into 10 constituency pages and 30 party-list pages (10 units)
+2026-05-05 18:01:13,586 | INFO | root | Split 23ตำบลพนางตุง.pdf into 13 constituency pages and 39 party-list pages (13 units)
+2026-05-05 18:01:13,609 | INFO | root | Split 24ตำบลมะกอกเหนือ(เทศบาล).pdf into 4 constituency pages and 12 party-list pages (4 units)
+2026-05-05 18:01:13,656 | INFO | root | Split 25ตำบลมะกอกเหนือ.pdf into 10 constituency pages and 30 party-list pages (10 units)
+2026-05-05 18:01:13,702 | INFO | root | Split 26ตำบลโตนดด้วน.pdf into 11 constituency pages and 33 party-list pages (11 units)
+2026-05-05 18:01:13,759 | INFO | root | Split 27ตำบลชะมวง.pdf into 15 constituency pages and 45 party-list pages (15 units)
+2026-05-05 18:01:13,793 | INFO | root | Split 28ตำบลดอนทราย.pdf into 11 constituency pages and 33 party-list pages (11 units)
+2026-05-05 18:01:13,830 | INFO | root | Split 29ตำบลนาขยาด.pdf into 12 constituency pages and 36 party-list pages (12 units)
+2026-05-05 18:01:13,853 | INFO | root | Split 30ตำบลพนมวังก์.pdf into 8 constituency pages and 24 party-list pages (8 units)
+2026-05-05 18:01:13,876 | INFO | root | Split 31ตำบลแพรกหา.pdf into 8 constituency pages and 24 party-list pages (8 units)
+2026-05-05 18:01:13,959 | INFO | root | Split 32ตำบลปันแต.pdf into 13 constituency pages and 39 party-list pages (13 units)
+2026-05-05 18:01:13,975 | INFO | root | Split 33ตำบลควนขนุน(เทศบาล).pdf into 4 constituency pages and 12 party-list pages (4 units)
+2026-05-05 18:01:14,003 | INFO | root | Split 34ตำบลควนขนุน.pdf into 9 constituency pages and 27 party-list pages (9 units)
+2026-05-05 18:01:14,005 | INFO | root | Skip 39ตำบลเขาย่า.pdf because split outputs already exist
+2026-05-05 18:01:14,006 | INFO | root | Skip 40ตำบลเขาปู่.pdf because split outputs already exist
+2026-05-05 18:01:14,006 | INFO | root | Skip 41ตำบลตะแพน.pdf because split outputs already exist
+2026-05-05 18:01:14,007 | INFO | root | Split summary: {'processed': 14, 'skipped': 5, 'failed': 0, 'total': 19}
+2026-05-05 18:01:14,007 | INFO | root | Finished pipeline step: split
+2026-05-05 18:02:20,357 | INFO | root | Starting pipeline step: ocr
+2026-05-05 18:02:20,359 | INFO | ocr | Starting OCR for constituency with 19 PDF(s)
+2026-05-05 18:07:46,222 | WARNING | ocr | Typhoon OCR call failed on attempt 1/3: HTTPSConnectionPool(host='api.opentyphoon.ai', port=443): Read timed out. (read timeout=120). Retrying in 1s.
+2026-05-05 18:31:02,383 | INFO | ocr | Finished OCR for constituency: 185 records
+2026-05-05 18:31:02,397 | INFO | ocr | Starting OCR for partylist with 19 PDF(s)
+2026-05-05 18:34:57,058 | WARNING | ocr | Typhoon OCR call failed on attempt 1/3: HTTPSConnectionPool(host='api.opentyphoon.ai', port=443): Read timed out. (read timeout=120). Retrying in 1s.
+2026-05-05 18:36:58,424 | WARNING | ocr | Typhoon OCR call failed on attempt 2/3: HTTPSConnectionPool(host='api.opentyphoon.ai', port=443): Read timed out. (read timeout=120). Retrying in 2s.
+2026-05-05 18:39:00,686 | WARNING | ocr | OCR issue in PartyList_46ตำบลสมหวัง.pdf unit 6: Typhoon OCR call failed after retries
+2026-05-05 19:04:39,502 | INFO | ocr | Finished OCR for partylist: 185 records
+2026-05-05 19:04:39,503 | INFO | root | Finished pipeline step: ocr
+2026-05-07 03:07:16,661 | INFO | root | Starting pipeline step: clean
+2026-05-07 03:07:18,305 | INFO | root | Finished pipeline step: clean
+2026-05-07 03:08:29,309 | INFO | root | Starting pipeline step: validate
+2026-05-07 03:08:30,502 | INFO | root | Finished pipeline step: validate
