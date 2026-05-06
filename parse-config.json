@@ -1,0 +1,5 @@
+{
+  "tier": "cost_effective",
+  "version": "latest",
+  "expand": ["markdown_full", "text_full"]
+}

@@ -9,6 +9,11 @@ load_dotenv()
 PROJECT_ROOT = Path(__file__).resolve().parent
 
 # ==================== API ====================
+OCR_PROVIDER_TYPHOON = "typhoon"
+OCR_PROVIDER_LLAMAPARSE = "llamaparse"
+OCR_PROVIDER = os.getenv("OCR_PROVIDER", OCR_PROVIDER_TYPHOON).strip().lower()
+OCR_PROVIDERS = (OCR_PROVIDER_TYPHOON, OCR_PROVIDER_LLAMAPARSE)
+
 TYPHOON_API_KEY = os.getenv("TYPHOON_API_KEY", "")
 TYPHOON_BASE_URL = os.getenv("TYPHOON_BASE_URL", "https://api.opentyphoon.ai/v1")
 TYPHOON_OCR_URL = os.getenv("TYPHOON_OCR_URL", "https://api.opentyphoon.ai/v1/ocr")
@@ -18,6 +23,21 @@ TYPHOON_TEMPERATURE = float(os.getenv("TYPHOON_TEMPERATURE", "0.1"))
 TYPHOON_MAX_TOKENS = int(os.getenv("TYPHOON_MAX_TOKENS", "16384"))
 TYPHOON_TOP_P = float(os.getenv("TYPHOON_TOP_P", "0.6"))
 TYPHOON_REPETITION_PENALTY = float(os.getenv("TYPHOON_REPETITION_PENALTY", "1.2"))
+
+LLAMA_CLOUD_API_KEY = os.getenv(
+    "LLAMA_CLOUD_API_KEY",
+    os.getenv("LLAMA_PARSE_API_KEY", ""),
+)
+LLAMA_PARSE_CONFIG_FILE = os.getenv(
+    "LLAMA_PARSE_CONFIG_FILE",
+    str(PROJECT_ROOT / "parse-config.json"),
+)
+LLAMA_PARSE_TIER = os.getenv("LLAMA_PARSE_TIER", "")
+LLAMA_PARSE_VERSION = os.getenv("LLAMA_PARSE_VERSION", "")
+LLAMA_PARSE_EXPAND = os.getenv("LLAMA_PARSE_EXPAND", "markdown_full,text_full")
+LLAMA_PARSE_POLLING_INTERVAL = float(os.getenv("LLAMA_PARSE_POLLING_INTERVAL", "1.0"))
+LLAMA_PARSE_TIMEOUT = float(os.getenv("LLAMA_PARSE_TIMEOUT", "7200"))
+LLAMA_PARSE_VERBOSE = os.getenv("LLAMA_PARSE_VERBOSE", "false").lower() == "true"
 
 # ==================== PATH ====================
 RAW_DIR = PROJECT_ROOT / "data" / "raw"

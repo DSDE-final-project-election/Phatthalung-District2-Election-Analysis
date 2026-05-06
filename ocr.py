@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import base64
+import asyncio
 import copy
 import html
 import io
@@ -10,6 +11,7 @@ import json
 import logging
 import math
 import re
+import tempfile
 import time
 from pathlib import Path
 from typing import Any
@@ -39,6 +41,27 @@ def _ensure_api_key() -> None:
         raise ValueError(
             "Typhoon API key is not configured. Set TYPHOON_API_KEY in .env."
         )
+
+
+def _ensure_llama_parse_api_key() -> None:
+    """Raise a clear error when the LlamaParse API key is missing."""
+    if not config.LLAMA_CLOUD_API_KEY:
+        raise ValueError(
+            "LlamaParse API key is not configured. Set LLAMA_CLOUD_API_KEY in .env."
+        )
+
+
+def _ensure_ocr_provider() -> None:
+    """Validate provider selection and its required credentials."""
+    if config.OCR_PROVIDER not in config.OCR_PROVIDERS:
+        raise ValueError(
+            f"Unsupported OCR_PROVIDER={config.OCR_PROVIDER!r}. "
+            f"Use one of: {', '.join(config.OCR_PROVIDERS)}"
+        )
+    if config.OCR_PROVIDER == config.OCR_PROVIDER_LLAMAPARSE:
+        _ensure_llama_parse_api_key()
+    else:
+        _ensure_api_key()
 
 
 def pdf_page_to_base64(pdf_path: Path, page_num: int, dpi: int = config.DPI) -> str:
@@ -185,6 +208,136 @@ def call_typhoon_ocr(pdf_path: Path, page_indexes: list[int]) -> str:
             time.sleep(sleep_seconds)
 
     raise RuntimeError("Typhoon OCR call failed after retries") from last_error
+
+
+def _load_llama_cloud_client_class() -> Any:
+    """Load the AsyncLlamaCloud client from the installed SDK."""
+    try:
+        from llama_cloud import AsyncLlamaCloud
+
+        return AsyncLlamaCloud
+    except ImportError as error:
+        raise ImportError(
+            "llama-cloud package is not installed. Run "
+            "`pip install -r requirements.txt` first."
+        ) from error
+
+
+def _load_llama_parse_config_file() -> dict[str, Any]:
+    """Load optional LlamaParse JSON config exported from the web UI."""
+    config_path = Path(config.LLAMA_PARSE_CONFIG_FILE)
+    if not config_path.exists():
+        return {}
+    with config_path.open("r", encoding="utf-8") as config_file:
+        loaded_config = json.load(config_file)
+    if not isinstance(loaded_config, dict):
+        raise ValueError(f"LlamaParse config must be a JSON object: {config_path}")
+    return loaded_config
+
+
+def _csv_to_list(value: str) -> list[str]:
+    """Convert a comma-separated environment value into a string list."""
+    return [item.strip() for item in value.split(",") if item.strip()]
+
+
+def _llama_parse_request_config() -> dict[str, Any]:
+    """Build Llama Cloud parse request settings."""
+    file_config = _load_llama_parse_config_file()
+    expand = file_config.get("expand") or _csv_to_list(config.LLAMA_PARSE_EXPAND)
+    if isinstance(expand, str):
+        expand = _csv_to_list(expand)
+    return {
+        "tier": config.LLAMA_PARSE_TIER or file_config.get("tier", "cost_effective"),
+        "version": config.LLAMA_PARSE_VERSION or file_config.get("version", "latest"),
+        "expand": expand,
+    }
+
+
+def _llama_result_to_text(result: Any) -> str:
+    """Extract full markdown/text content from a Llama Cloud parse result."""
+    parts: list[str] = []
+    for attribute_name in ("markdown_full", "text_full"):
+        value = getattr(result, attribute_name, None)
+        if isinstance(value, str) and value.strip():
+            parts.append(value)
+
+    if not parts:
+        for attribute_name in ("markdown", "text"):
+            value = getattr(result, attribute_name, None)
+            if isinstance(value, str) and value.strip():
+                parts.append(value)
+            elif isinstance(value, list):
+                parts.extend(str(item) for item in value if str(item).strip())
+
+    return "\n".join(parts).strip()
+
+
+async def _call_llama_cloud_parse_async(pdf_path: Path, page_indexes: list[int]) -> str:
+    """Parse selected PDF pages with Llama Cloud's async API."""
+    _ensure_llama_parse_api_key()
+    AsyncLlamaCloud = _load_llama_cloud_client_class()
+    request_config = _llama_parse_request_config()
+    unit_pdf_bytes = pdf_pages_to_pdf_bytes(pdf_path, page_indexes)
+    temp_path: Path | None = None
+
+    with tempfile.NamedTemporaryFile(
+        suffix=".pdf",
+        prefix="election_unit_",
+        delete=False,
+    ) as temp_file:
+        temp_file.write(unit_pdf_bytes)
+        temp_path = Path(temp_file.name)
+
+    try:
+        async with AsyncLlamaCloud(api_key=config.LLAMA_CLOUD_API_KEY) as client:
+            with temp_path.open("rb") as input_file:
+                file_obj = await client.files.create(file=input_file, purpose="parse")
+            result = await client.parsing.parse(
+                file_id=file_obj.id,
+                tier=request_config["tier"],
+                version=request_config["version"],
+                expand=request_config["expand"],
+                polling_interval=config.LLAMA_PARSE_POLLING_INTERVAL,
+                timeout=config.LLAMA_PARSE_TIMEOUT,
+                verbose=config.LLAMA_PARSE_VERBOSE,
+            )
+        parsed_text = _llama_result_to_text(result)
+        if not parsed_text:
+            raise RuntimeError("Llama Cloud returned no markdown_full/text_full content")
+        return parsed_text
+    finally:
+        if temp_path and temp_path.exists():
+            temp_path.unlink()
+
+
+def call_llama_parse(pdf_path: Path, page_indexes: list[int]) -> str:
+    """Parse selected PDF pages with Llama Cloud and return markdown/text."""
+    last_error: Exception | None = None
+    for attempt_index in range(config.MAX_RETRIES):
+        try:
+            return asyncio.run(_call_llama_cloud_parse_async(Path(pdf_path), page_indexes))
+        except Exception as error:
+            last_error = error
+            if attempt_index >= config.MAX_RETRIES - 1:
+                break
+            sleep_seconds = config.RETRY_BACKOFF_BASE_SECONDS * (2**attempt_index)
+            logging.getLogger(__name__).warning(
+                "Llama Cloud parse call failed on attempt %s/%s: %s. Retrying in %ss.",
+                attempt_index + 1,
+                config.MAX_RETRIES,
+                error,
+                sleep_seconds,
+            )
+            time.sleep(sleep_seconds)
+
+    raise RuntimeError("Llama Cloud parse call failed after retries") from last_error
+
+
+def call_ocr_provider(pdf_path: Path, page_indexes: list[int]) -> str:
+    """Call the configured OCR provider."""
+    if config.OCR_PROVIDER == config.OCR_PROVIDER_LLAMAPARSE:
+        return call_llama_parse(pdf_path, page_indexes)
+    return call_typhoon_ocr(pdf_path, page_indexes)
 
 
 def parse_json_response(raw_text: str) -> dict[str, Any]:
@@ -416,7 +569,7 @@ def ocr_unit(
             result[config.FIELD_PARSE_ERROR] = "No pages found for unit"
             return result
 
-        raw_response = call_typhoon_ocr(pdf_path, page_indexes)
+        raw_response = call_ocr_provider(pdf_path, page_indexes)
         parsed = parse_election_text(raw_response, names_list)
         result[config.FIELD_RAW_RESPONSE] = raw_response
 
@@ -572,7 +725,7 @@ def run_ocr(form_type: str) -> list[dict[str, Any]]:
     """Run OCR for all split PDFs of one form type."""
     if form_type not in config.FORM_TYPES:
         raise ValueError(f"Unsupported form type: {form_type}")
-    _ensure_api_key()
+    _ensure_ocr_provider()
 
     input_dir = config.FORM_INPUT_DIRS[form_type]
     names_list = config.FORM_NAMES[form_type]
@@ -583,7 +736,12 @@ def run_ocr(form_type: str) -> list[dict[str, Any]]:
     logger = logging.getLogger(__name__)
     results: list[dict[str, Any]] = []
     pdf_paths = sorted(path for path in input_dir.rglob("*.pdf") if path.is_file())
-    logger.info("Starting OCR for %s with %s PDF(s)", form_type, len(pdf_paths))
+    logger.info(
+        "Starting OCR for %s with provider=%s and %s PDF(s)",
+        form_type,
+        config.OCR_PROVIDER,
+        len(pdf_paths),
+    )
 
     for pdf_path in pdf_paths:
         total_pages = _page_count(pdf_path)

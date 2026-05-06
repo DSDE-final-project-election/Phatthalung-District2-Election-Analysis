@@ -8,3 +8,4 @@ scipy
 numpy
 python-dotenv
 requests
+llama-cloud>=2.4.1
