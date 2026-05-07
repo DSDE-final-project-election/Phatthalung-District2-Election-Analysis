@@ -30,7 +30,7 @@
     "unit_index": 1,
     "form_type": "constituency",
     "ballot_total": 307,
-    "ballot_valid": 296,
+    "ballot_valid": null,
     "ballot_invalid": 1,
     "ballot_no_vote": 10,
     "scores": {
@@ -58,7 +58,7 @@
     "source_file": "อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf",
     "unit_index": 2,
     "form_type": "constituency",
-    "ballot_total": 374,
+    "ballot_total": 359,
     "ballot_valid": 359,
     "ballot_invalid": 5,
     "ballot_no_vote": 10,
@@ -90,7 +90,7 @@
     "form_type": "constituency",
     "ballot_total": 229,
     "ballot_valid": 222,
-    "ballot_invalid": 5,
+    "ballot_invalid": 6,
     "ballot_no_vote": 2,
     "scores": {
       "วรท เทอดวีระพงศ์": 131,

@@ -31,7 +31,7 @@
     "form_type": "constituency",
     "ballot_total": 337,
     "ballot_valid": 322,
-    "ballot_invalid": 6,
+    "ballot_invalid": 2,
     "ballot_no_vote": 9,
     "scores": {
       "วรท เทอดวีระพงศ์": 163,
@@ -47,7 +47,9 @@
     "cleaning_notes": [
       "ballot_invalid: '๒' → 2 (thai digit)"
     ],
-    "issues": [],
+    "issues": [
+      "ballot_valid + ballot_invalid + ballot_no_vote does not equal ballot_total"
+    ],
     "status": "FAIL",
     "cross_status": "MISMATCH",
     "cross_issues": [
