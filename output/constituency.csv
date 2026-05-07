@@ -1,2 +1,2 @@
 ﻿source_file,unit_index,status,cross_status,stat_flags,ballot_total,ballot_valid,ballot_invalid,ballot_no_vote,cleaning_notes,issues,วรท เทอดวีระพงศ์,ศุภกร ขุนชิต,พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง,อธิคม ขุนแก้ว,ภพเอกอัคร อินทรโม,สมเสริม ชูรักษ์,นิติศักดิ์ ธรรมเพชร
-5-16/2 ผลในเขต รร ควนขนุน เขต 2.pdf,0,FAIL,OK,,,9,2,3,,ballot_total is None; scores['อธิคม ขุนแก้ว'] is None; scores['ภพเอกอัคร อินทรโม'] is None; scores['สมเสริม ชูรักษ์'] is None; scores['นิติศักดิ์ ธรรมเพชร'] is None,5,3,1,,,,
+5-16/2 ผลในเขต รร ควนขนุน เขต 2.pdf,0,PASS,OK,,9,9,0,0,,,5,0,0,0,1,0,3
