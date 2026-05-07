@@ -20,6 +20,7 @@ import pandas as pd
 
 import config
 from clean import clean_result
+from corrections import apply_manual_corrections, load_all_corrections
 from ocr import reparse_results, save_outputs, run_ocr
 from paths import json_output_glob
 from split import split_all
@@ -75,10 +76,16 @@ def load_results(form_type: str) -> list[dict[str, Any]]:
 def clean_results(
     results: list[dict[str, Any]],
     form_type: str,
+    manual_corrections: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     """Re-parse raw OCR text and clean all result records."""
     reparsed_results = reparse_results(results, form_type)
-    return [clean_result(result) for result in reparsed_results]
+    corrected_results = apply_manual_corrections(
+        reparsed_results,
+        form_type,
+        manual_corrections,
+    )
+    return [clean_result(result) for result in corrected_results]
 
 
 def count_cleaning_notes(results: list[dict[str, Any]]) -> int:
@@ -208,6 +215,7 @@ def main() -> None:
     partylist_results: list[dict[str, Any]] | None = None
     cleaning_count: int | None = None
     validation_done = False
+    manual_corrections = load_all_corrections()
 
     if args.step in (config.STEP_ALL, config.STEP_SPLIT):
         split_summary = split_all(logger)
@@ -225,8 +233,16 @@ def main() -> None:
             const_results = load_results(config.FORM_CONSTITUENCY)
         if partylist_results is None:
             partylist_results = load_results(config.FORM_PARTYLIST)
-        const_results = clean_results(const_results, config.FORM_CONSTITUENCY)
-        partylist_results = clean_results(partylist_results, config.FORM_PARTYLIST)
+        const_results = clean_results(
+            const_results,
+            config.FORM_CONSTITUENCY,
+            manual_corrections,
+        )
+        partylist_results = clean_results(
+            partylist_results,
+            config.FORM_PARTYLIST,
+            manual_corrections,
+        )
         save_outputs(const_results, config.FORM_CONSTITUENCY)
         save_outputs(partylist_results, config.FORM_PARTYLIST)
         cleaning_count = count_cleaning_notes([*const_results, *partylist_results])
@@ -242,6 +258,16 @@ def main() -> None:
             partylist_results = load_results(config.FORM_PARTYLIST)
         const_results = reparse_results(const_results, config.FORM_CONSTITUENCY)
         partylist_results = reparse_results(partylist_results, config.FORM_PARTYLIST)
+        const_results = apply_manual_corrections(
+            const_results,
+            config.FORM_CONSTITUENCY,
+            manual_corrections,
+        )
+        partylist_results = apply_manual_corrections(
+            partylist_results,
+            config.FORM_PARTYLIST,
+            manual_corrections,
+        )
         const_results, partylist_results = run_validate(const_results, partylist_results)
         save_outputs(const_results, config.FORM_CONSTITUENCY)
         save_outputs(partylist_results, config.FORM_PARTYLIST)

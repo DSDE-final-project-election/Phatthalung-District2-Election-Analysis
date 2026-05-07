@@ -45,6 +45,8 @@ PROCESSED_CONST_DIR = PROJECT_ROOT / "data" / "processed" / "constituency"
 PROCESSED_PARTY_DIR = PROJECT_ROOT / "data" / "processed" / "partylist"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 LOG_FILE = OUTPUT_DIR / "pipeline.log"
+MANUAL_CORRECTIONS_FILE = OUTPUT_DIR / "manual_corrections.json"
+CORRECTIONS_DIR = OUTPUT_DIR / "corrections"
 
 # ==================== PDF STRUCTURE ====================
 PAGES_PER_UNIT = 6
