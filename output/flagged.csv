@@ -1,0 +1,4 @@
+﻿source_file,unit_index,form_type,status,cross_status,issues,stat_flags
+5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,constituency,PASS,MISMATCH,ballot_total differs between forms,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,partylist,FAIL,OK,sum(scores.values()) does not equal ballot_valid,score_outlier: มิติใหม่; score_outlier: อนาคตไทย; score_outlier: พลังสังคมใหม่; score_outlier: สังคมประชาธิปไดยไทย; score_outlier: ปวงชนไทย
+5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,partylist,PASS,MISMATCH,ballot_total differs between forms,score_outlier: ทางเลือกไทย; score_outlier: เศรษฐกิจ; score_outlier: กรีน; score_outlier: กล้าธรรม; score_outlier: พลังไทยรักชาติ
