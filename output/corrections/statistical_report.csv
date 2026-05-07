@@ -1,81 +1,371 @@
 ﻿source_file,unit_index,form_type,ballot_total,ballot_valid,turnout,stat_flags
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,0,constituency,,695.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,constituency,,689.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,2,constituency,,719.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,3,constituency,,475.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,4,constituency,,705.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,5,constituency,,692.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,6,constituency,,705.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,7,constituency,,692.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,8,constituency,,687.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,9,constituency,,699.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,constituency,404.0,397.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,constituency,396.0,384.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,0,constituency,256.0,237.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,1,constituency,337.0,322.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,2,constituency,403.0,383.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,3,constituency,206.0,199.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,0,constituency,384.0,378.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,1,constituency,305.0,297.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,2,constituency,639.0,606.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,3,constituency,707.0,675.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,4,constituency,381.0,371.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,5,constituency,623.0,598.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,6,constituency,374.0,360.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,7,constituency,203.0,5.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,8,constituency,80.0,77.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,0,constituency,573.0,552.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,1,constituency,194.0,182.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,2,constituency,545.0,525.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,3,constituency,185.0,,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,4,constituency,511.0,501.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,5,constituency,326.0,315.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,6,constituency,394.0,387.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,7,constituency,360.0,,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,8,constituency,328.0,315.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,9,constituency,196.0,191.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,10,constituency,496.0,476.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,11,constituency,296.0,285.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,12,constituency,462.0,448.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,13,constituency,58.0,57.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,14,constituency,366.0,,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,0,constituency,593.0,565.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,1,constituency,449.0,393.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,2,constituency,655.0,619.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,3,constituency,301.0,310.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,4,constituency,399.0,383.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,5,constituency,429.0,411.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,6,constituency,270.0,270.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,7,constituency,671.0,590.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,8,constituency,383.0,381.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,9,constituency,577.0,490.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,0,constituency,206.0,205.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,1,constituency,372.0,,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,2,constituency,301.0,270.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,3,constituency,255.0,250.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,4,constituency,475.0,452.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,5,constituency,284.0,272.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,6,constituency,528.0,519.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,7,constituency,262.0,,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,8,constituency,586.0,,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,9,constituency,379.0,369.0,,score_outlier: ศุภกร ขุนชิต
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,10,constituency,264.0,257.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,0,constituency,340.0,335.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,constituency,603.0,583.0,,single_party_dominance: วรท เทอดวีระพงศ์; score_outlier: วรท เทอดวีระพงศ์
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,constituency,335.0,326.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,constituency,142.0,2.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ศุภกร ขุนชิต; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,constituency,549.0,531.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,constituency,376.0,369.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,constituency,614.0,602.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,constituency,343.0,325.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,constituency,339.0,324.0,,score_outlier: สมเสริม ชูรักษ์
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,0,constituency,614.0,584.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,1,constituency,330.0,319.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,2,constituency,341.0,329.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,3,constituency,377.0,368.0,,single_party_dominance: วรท เทอดวีระพงศ์; score_outlier: วรท เทอดวีระพงศ์
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,4,constituency,600.0,,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,5,constituency,296.0,478.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,6,constituency,337.0,327.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,7,constituency,456.0,433.0,,score_outlier: สมเสริม ชูรักษ์
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,8,constituency,408.0,393.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,9,constituency,370.0,370.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,0,constituency,681.0,653.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,1,constituency,656.0,625.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,2,constituency,326.0,316.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,3,constituency,480.0,357.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,4,constituency,471.0,434.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,5,constituency,628.0,511.0,,score_outlier: ศุภกร ขุนชิต; score_outlier: อธิคม ขุนแก้ว
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,6,constituency,387.0,371.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,7,constituency,393.0,396.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,8,constituency,416.0,379.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,9,constituency,366.0,395.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,10,constituency,404.0,379.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,11,constituency,256.0,443.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,0,constituency,227.0,219.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,1,constituency,127.0,,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,2,constituency,493.0,478.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,3,constituency,251.0,236.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,4,constituency,490.0,479.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,5,constituency,498.0,481.0,,score_outlier: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง
+อำเภอควนขนุน/32ตำบลปันแต.pdf,6,constituency,200.0,192.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,7,constituency,171.0,,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,8,constituency,349.0,341.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,9,constituency,353.0,346.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,10,constituency,384.0,374.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,11,constituency,331.0,3.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ศุภกร ขุนชิต; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอควนขนุน/32ตำบลปันแต.pdf,12,constituency,18.0,,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,0,constituency,400.0,390.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,1,constituency,631.0,604.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,2,constituency,574.0,555.0,,score_outlier: ศุภกร ขุนชิต
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,3,constituency,530.0,505.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,4,constituency,398.0,374.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,5,constituency,628.0,607.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,6,constituency,516.0,,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,7,constituency,551.0,538.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,0,constituency,412.0,,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,1,constituency,352.0,336.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,2,constituency,650.0,624.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,3,constituency,367.0,349.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,4,constituency,159.0,647.0,,single_party_dominance: วรท เทอดวีระพงศ์; score_outlier: วรท เทอดวีระพงศ์
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,5,constituency,660.0,655.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,6,constituency,483.0,11.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,7,constituency,726.0,696.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,8,constituency,166.0,163.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,9,constituency,632.0,609.0,,score_outlier: ภพเอกอัคร อินทรโม
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,10,constituency,378.0,328.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,11,constituency,548.0,525.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,12,constituency,510.0,435.0,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,0,constituency,400.0,389.0,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,1,constituency,307.0,,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,2,constituency,359.0,359.0,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,3,constituency,229.0,222.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,0,constituency,480.0,453.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,1,constituency,93.0,,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,2,constituency,113.0,197.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,3,constituency,259.0,249.0,,score_outlier: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,4,constituency,461.0,441.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,5,constituency,477.0,452.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,6,constituency,485.0,473.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,7,constituency,420.0,409.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,8,constituency,413.0,400.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,9,constituency,70.0,95.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,0,constituency,316.0,302.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,1,constituency,665.0,625.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,2,constituency,376.0,379.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,3,constituency,358.0,,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,4,constituency,413.0,392.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,5,constituency,394.0,345.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,6,constituency,427.0,411.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,7,constituency,197.0,186.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,constituency,359.0,340.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,constituency,494.0,464.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,constituency,198.0,191.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,constituency,298.0,282.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,constituency,293.0,233.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,constituency,499.0,478.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,constituency,361.0,349.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,constituency,435.0,412.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,constituency,290.0,278.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,constituency,223.0,279.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,constituency,357.0,6.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ศุภกร ขุนชิต; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,constituency,404.0,389.0,,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,constituency,396.0,,,
 อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,2,constituency,537.0,524.0,,single_party_dominance: วรท เทอดวีระพงศ์; score_outlier: วรท เทอดวีระพงศ์
 อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,3,constituency,474.0,456.0,,
 อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,4,constituency,451.0,439.0,,
 อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,5,constituency,496.0,468.0,,
 อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,6,constituency,552.0,511.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,constituency,637.0,520.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,constituency,375.0,359.0,,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,constituency,537.0,520.0,,score_outlier: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,constituency,373.0,359.0,,
 อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,9,constituency,446.0,428.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,constituency,359.0,340.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,constituency,494.0,464.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,constituency,198.0,191.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,constituency,298.0,282.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,constituency,943.0,937.0,,ballot_total_outlier
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,constituency,499.0,478.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,constituency,361.0,349.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,constituency,105.0,412.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,constituency,290.0,278.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,constituency,253.0,272.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,constituency,357.0,341.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,0,constituency,340.0,335.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,constituency,603.0,583.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,constituency,395.0,326.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,constituency,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,constituency,549.0,531.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,constituency,376.0,369.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,constituency,614.0,602.0,,score_outlier: นิติศักดิ์ ธรรมเพชร
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,constituency,343.0,335.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,constituency,339.0,324.0,,score_outlier: สมเสริม ชูรักษ์
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,0,partylist,,1.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: ใหม่; single_party_dominance: มิติใหม่; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: อนาคตไทย; single_party_dominance: พลังเพื่อไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: ประชาชาติ; single_party_dominance: สร้างอนาคตไทย; single_party_dominance: ภูมิใจไทย; single_party_dominance: กล้าธรรม; single_party_dominance: พลังประชารัฐ; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,partylist,,,,score_outlier: รักชาติ; score_outlier: กล้าธรรม
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,2,partylist,,945.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,3,partylist,,6.0,,single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: ประชาธิปัตย์
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,4,partylist,,1.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: ใหม่; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ปวงชนไทย; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: แรงงานสร้างชาติ; single_party_dominance: ครูไทยเพื่อประชาชน; single_party_dominance: ประชาชาติ; single_party_dominance: รักชาติ; single_party_dominance: ภูมิใจไทย; single_party_dominance: กล้าธรรม; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,5,partylist,,1.0,,single_party_dominance: ใหม่; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ไทรวมพลัง; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: ประชาชาติ; single_party_dominance: รักชาติ; single_party_dominance: ภูมิใจไทย; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,6,partylist,,733.0,,score_outlier: ความหวังใหม่
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,7,partylist,,436.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,8,partylist,,1.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ก้าวอิสระ; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยภักดี; single_party_dominance: สร้างอนาคตไทย; single_party_dominance: ภูมิใจไทย; single_party_dominance: พลังธรรมใหม่; single_party_dominance: กรีน; single_party_dominance: กล้าธรรม; single_party_dominance: โอกาสใหม่; single_party_dominance: ประชาชน; single_party_dominance: ประชาไทย; single_party_dominance: ไทยสร้างไทย; score_outlier: เพื่อชาติไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,9,partylist,,741.0,,score_outlier: พลังประชารัฐ
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,partylist,667.0,389.0,,score_outlier: รวมใจไทย
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,partylist,396.0,378.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,2,partylist,537.0,524.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,3,partylist,474.0,453.0,,score_outlier: ไทยพร้อม; score_outlier: พร้อม
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,4,partylist,451.0,431.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,5,partylist,,,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,6,partylist,552.0,525.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,partylist,637.0,519.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,partylist,375.0,360.0,,score_outlier: มิติใหม่
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,9,partylist,446.0,416.0,,single_party_dominance: เพื่อไทย; score_outlier: เพื่อไทย; score_outlier: ความหวังใหม่
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,partylist,2.0,345.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,partylist,2.0,466.0,,single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ท้องที่ไทย; single_party_dominance: อนาคตไทย; single_party_dominance: พลังเพื่อไทย; single_party_dominance: ไทยชนะ; single_party_dominance: พลังสังคมใหม่; single_party_dominance: ไทรวมพลัง; single_party_dominance: ก้าวอิสระ; single_party_dominance: ปวงชนไทย; single_party_dominance: วิชชั่นใหม่; single_party_dominance: เพื่อชีวิตใหม่; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: แรงงานสร้างชาติ; single_party_dominance: ประชากรไทย; single_party_dominance: ครูไทยเพื่อประชาชน; single_party_dominance: ประชาชาติ; single_party_dominance: สร้างอนาคตไทย; single_party_dominance: ประชาชน; score_outlier: เสรีรวมไทย; score_outlier: รวมพลังประชาชน; score_outlier: ท้องที่ไทย; score_outlier: อนาคตไทย; score_outlier: พลังเพื่อไทย; score_outlier: ไทยชนะ; score_outlier: พลังสังคมใหม่; score_outlier: ไทรวมพลัง; score_outlier: ก้าวอิสระ; score_outlier: ปวงชนไทย; score_outlier: เพื่อชีวิตใหม่; score_outlier: คลองไทย; score_outlier: ประชาธิปัตย์; score_outlier: ไทยก้าวหน้า; score_outlier: ไทยภักดี; score_outlier: แรงงานสร้างชาติ; score_outlier: ประชากรไทย; score_outlier: ครูไทยเพื่อประชาชน; score_outlier: ประชาชาติ; score_outlier: สร้างอนาคตไทย; score_outlier: ประชาชน; score_outlier: เพื่อบ้านเมือง; score_outlier: พลังไทยรักชาติ
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,partylist,2.0,187.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,partylist,860.0,798.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,partylist,,,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,partylist,499.0,471.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,partylist,361.0,348.0,,single_party_dominance: ประชาธิปัตย์
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,partylist,,,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,partylist,27.0,28.0,,single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย; score_outlier: กรีน
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,partylist,253.0,247.0,,score_outlier: โอกาสใหม่
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,partylist,,,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,0,constituency,622.0,609.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,1,constituency,346.0,331.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,2,constituency,575.0,548.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,3,constituency,680.0,,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,4,constituency,677.0,648.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,5,constituency,417.0,403.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,6,constituency,434.0,42.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,7,constituency,385.0,366.0,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,0,constituency,512.0,,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,1,constituency,386.0,371.0,,score_outlier: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,2,constituency,326.0,312.0,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,3,constituency,590.0,569.0,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,4,constituency,305.0,,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,5,constituency,,3.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ศุภกร ขุนชิต; single_party_dominance: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,6,constituency,323.0,314.0,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,7,constituency,276.0,213.0,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,8,constituency,232.0,228.0,,score_outlier: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,0,constituency,262.0,250.0,,score_outlier: อธิคม ขุนแก้ว
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,1,constituency,596.0,589.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,2,constituency,246.0,234.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,3,constituency,231.0,221.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,4,constituency,55.0,54.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,5,constituency,226.0,216.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,6,constituency,705.0,675.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,7,constituency,3790796.0,3790796.0,,ballot_total_outlier; score_outlier: วรท เทอดวีระพงศ์
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,8,constituency,431.0,408.0,,score_outlier: อธิคม ขุนแก้ว; score_outlier: สมเสริม ชูรักษ์
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,9,constituency,259.0,266.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,10,constituency,374.0,363.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,0,partylist,256.0,293.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,1,partylist,327.0,320.0,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,2,partylist,403.0,,,
+อำเภอควนขนุน/33ตำบลควนขนุน(เทศบาล).pdf,3,partylist,206.0,149.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,0,partylist,382.0,365.0,,score_outlier: ไทยชนะ
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,1,partylist,305.0,301.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,2,partylist,68.0,612.0,,score_outlier: ครูไทยเพื่อประชาชน; score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,3,partylist,707.0,,,score_outlier: เศรษฐกิจ; score_outlier: ท้องที่ไทย; score_outlier: อนาคตไทย; score_outlier: ฟิวชัน; score_outlier: ครูไทยเพื่อประชาชน; score_outlier: กรีน; score_outlier: ไทยธรรม; score_outlier: แผ่นดินธรรม; score_outlier: กล้าธรรม; score_outlier: ความหวังใหม่
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,4,partylist,381.0,368.0,,score_outlier: เครือข่ายชาวนาแห่งประเทศไทย
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,5,partylist,1.0,1.0,,single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: พลังเพื่อไทย; single_party_dominance: ไทยชนะ; single_party_dominance: ฟิวชัน; single_party_dominance: ไทรวมพลัง; single_party_dominance: วิชชั่นใหม่; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยภักดี; single_party_dominance: ประชาชาติ; single_party_dominance: รักชาติ; single_party_dominance: ภูมิใจไทย; single_party_dominance: กรีน; single_party_dominance: พลังประชารัฐ; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย; single_party_dominance: เพื่อบ้านเมือง; single_party_dominance: พลังไทยรักชาติ; score_outlier: ฟิวชัน
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,6,partylist,374.0,361.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,7,partylist,200.0,103.0,,
+อำเภอควนขนุน/34ตำบลควนขนุน.pdf,8,partylist,80.0,78.0,,single_party_dominance: ไทยทรัพย์ทวี; single_party_dominance: เพื่อชาติไทย; single_party_dominance: ใหม่; single_party_dominance: มิติใหม่; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: พลวัต; single_party_dominance: ประชาธิปไดยใหม่; single_party_dominance: เพื่อไทย; single_party_dominance: ทางเลือกไทย; score_outlier: เพื่อชาติไทย; score_outlier: ใหม่; score_outlier: มิติใหม่; score_outlier: รวมใจไทย; score_outlier: รวมไทยสร้างชาติ; score_outlier: พลวัต; score_outlier: ทางเลือกไทย
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,0,partylist,573.0,564.0,,score_outlier: ประชาไทย
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,1,partylist,194.0,177.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,2,partylist,545.0,,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,3,partylist,185.0,183.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,4,partylist,591.0,490.0,,score_outlier: โอกาสใหม่
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,5,partylist,326.0,317.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,6,partylist,394.0,376.0,,score_outlier: พลังธรรมใหม่
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,7,partylist,360.0,342.0,,score_outlier: ฟิวชัน; score_outlier: กรีน
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,8,partylist,388.0,316.0,,single_party_dominance: พลังไทยรักชาติ; score_outlier: พลังไทยรักชาติ
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,9,partylist,196.0,184.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,10,partylist,486.0,963.0,,score_outlier: ท้องที่ไทย; score_outlier: กล้าธรรม
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,11,partylist,296.0,,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,12,partylist,462.0,445.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,13,partylist,588.0,555.0,,
+อำเภอควนขนุน/27ตำบลชะมวง.pdf,14,partylist,366.0,357.0,,score_outlier: ฟิวชัน
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,0,partylist,593.0,562.0,,score_outlier: ไทยชนะ; score_outlier: สร้างอนาคตไทย
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,1,partylist,417.0,,,score_outlier: วิชชั่นใหม่
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,2,partylist,655.0,639.0,,score_outlier: ประชาชาติ; score_outlier: ประชาไทย
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,3,partylist,301.0,,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,4,partylist,399.0,383.0,,score_outlier: ประชาชาติ; score_outlier: ประชาไทย
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,5,partylist,479.0,,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,6,partylist,277.0,277.0,,score_outlier: พลังสังคมใหม่
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,7,partylist,617.0,592.0,,
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,8,partylist,383.0,360.0,,score_outlier: ไทยชนะ; score_outlier: วิชชั่นใหม่; score_outlier: ประชาชาติ
+อำเภอกงหรา 2/47ตำบลชะรัด.pdf,9,partylist,517.0,490.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,0,partylist,206.0,202.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,1,partylist,372.0,357.0,,score_outlier: ฟิวชัน
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,2,partylist,301.0,286.0,,score_outlier: อนาคตไทย
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,3,partylist,255.0,246.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,4,partylist,475.0,456.0,,score_outlier: อนาคตไทย
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,5,partylist,284.0,,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,6,partylist,528.0,504.0,,score_outlier: ฟิวชัน; score_outlier: ไทรวมพลัง; score_outlier: ปวงชนไทย
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,7,partylist,260.0,,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,8,partylist,586.0,563.0,,score_outlier: อนาคตไทย; score_outlier: กล้าธรรม
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,9,partylist,379.0,367.0,,
+อำเภอควนขนุน/28ตำบลดอนทราย.pdf,10,partylist,264.0,252.0,,
 อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,0,partylist,340.0,329.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,partylist,603.0,582.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,partylist,375.0,4.0,,single_party_dominance: ไทยทรัพย์ทวี; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: พลวัต; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,partylist,144.0,143.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: แผ่นดินธรรม
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,partylist,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,partylist,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,partylist,614.0,602.0,,score_outlier: มิติใหม่; score_outlier: เศรษฐกิจ
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,partylist,2.0,0.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,partylist,339.0,320.0,,score_outlier: ไทยพร้อม; score_outlier: พร้อม
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,partylist,603.0,,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,partylist,252.0,4.0,,single_party_dominance: พลวัต; single_party_dominance: เพื่อไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย; single_party_dominance: ประชาชน
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,partylist,144.0,143.0,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,partylist,524.0,,,
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,partylist,376.0,369.0,,score_outlier: ฟิวชัน
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,partylist,614.0,602.0,,score_outlier: ทางเลือกไทย; score_outlier: สร้างอนาคตไทย; score_outlier: พร้อม
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,partylist,343.0,336.0,,single_party_dominance: ภูมิใจไทย; score_outlier: ภูมิใจไทย
+อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,partylist,339.0,320.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,0,partylist,614.0,578.0,,score_outlier: ไทยสร้างไทย
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,1,partylist,330.0,314.0,,single_party_dominance: เพื่อไทย; score_outlier: ใหม่; score_outlier: รวมไทยสร้างชาติ; score_outlier: พลวัต; score_outlier: เพื่อไทย; score_outlier: เศรษฐกิจ; score_outlier: ไทยภักดี; score_outlier: พลังธรรมใหม่
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,2,partylist,341.0,320.0,,score_outlier: ครูไทยเพื่อประชาชน
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,3,partylist,377.0,,,score_outlier: ครูไทยเพื่อประชาชน
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,4,partylist,508.0,476.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,5,partylist,278.0,,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,6,partylist,337.0,315.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,7,partylist,456.0,432.0,,score_outlier: เป็นธรรม
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,8,partylist,408.0,382.0,,
+อำเภอควนขนุน/22ตำบลทะเลน้อย.pdf,9,partylist,387.0,356.0,,score_outlier: ประชาอาสาชาติ
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,0,partylist,681.0,628.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,1,partylist,656.0,619.0,,single_party_dominance: ประชาชน; score_outlier: ประชาชน
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,2,partylist,326.0,311.0,,score_outlier: ไทยสร้างไทย
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,3,partylist,380.0,359.0,,score_outlier: เศรษฐกิจ
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,4,partylist,471.0,438.0,,score_outlier: ไทยพิทักษ์ธรรม
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,5,partylist,623.0,602.0,,score_outlier: รักชาติ; score_outlier: ไทยพร้อม
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,6,partylist,387.0,368.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,7,partylist,384.0,5.0,,single_party_dominance: ไทยทรัพย์ทวี; single_party_dominance: เพื่อไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยภักดี; single_party_dominance: ประชาชน
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,8,partylist,1.0,,,score_outlier: ไทยทรัพย์ทวี; score_outlier: เพื่อชาติไทย
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,9,partylist,366.0,377.0,,single_party_dominance: ประชาธิปไดยใหม่; score_outlier: ประชาธิปไดยใหม่
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,10,partylist,404.0,388.0,,
+อำเภอควนขนุน/29ตำบลนาขยาด.pdf,11,partylist,456.0,436.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,0,partylist,227.0,217.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,1,partylist,129.0,126.0,,score_outlier: ประชาชาติ
+อำเภอควนขนุน/32ตำบลปันแต.pdf,2,partylist,493.0,483.0,,score_outlier: อนาคตไทย
+อำเภอควนขนุน/32ตำบลปันแต.pdf,3,partylist,251.0,249.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,4,partylist,490.0,467.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,5,partylist,478.0,477.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,6,partylist,200.0,195.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,7,partylist,171.0,163.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,8,partylist,349.0,,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,9,partylist,353.0,338.0,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,10,partylist,384.0,358.0,,score_outlier: อนาคตไทย
+อำเภอควนขนุน/32ตำบลปันแต.pdf,11,partylist,336.0,,,
+อำเภอควนขนุน/32ตำบลปันแต.pdf,12,partylist,180.0,180.0,,score_outlier: ปวงชนไทย
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,0,partylist,300.0,,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,1,partylist,631.0,576.0,,score_outlier: ฟิวชัน; score_outlier: ประชาไทย
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,2,partylist,574.0,525.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,3,partylist,530.0,508.0,,score_outlier: ปวงชนไทย
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,4,partylist,398.0,,,score_outlier: ไทยพิทักษ์ธรรม
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,5,partylist,628.0,596.0,,score_outlier: คลองไทย
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,6,partylist,516.0,492.0,,
+อำเภอควนขนุน/30ตำบลพนมวังก์.pdf,7,partylist,551.0,523.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,0,partylist,412.0,384.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,1,partylist,352.0,326.0,,score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,2,partylist,650.0,629.0,,score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,3,partylist,357.0,356.0,,score_outlier: เป็นธรรม
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,4,partylist,659.0,,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,5,partylist,680.0,660.0,,score_outlier: ฟิวชัน
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,6,partylist,483.0,,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,7,partylist,726.0,682.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,8,partylist,166.0,160.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,9,partylist,637.0,578.0,,score_outlier: ฟิวชัน; score_outlier: ไทรวมพลัง
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,10,partylist,378.0,324.0,,
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,11,partylist,548.0,515.0,,score_outlier: ฟิวชัน
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,12,partylist,510.0,466.0,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,0,partylist,400.0,372.0,,score_outlier: เศรษฐกิจ
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,1,partylist,307.0,296.0,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,2,partylist,374.0,374.0,,
+อำเภอควนขนุน/24ตำบลมะกอกเหนือ(เทศบาล).pdf,3,partylist,229.0,226.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,0,partylist,478.0,458.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,1,partylist,93.0,90.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,2,partylist,170.0,,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,3,partylist,259.0,249.0,,single_party_dominance: ภูมิใจไทย; single_party_dominance: พลังไทยรักชาติ; score_outlier: ภูมิใจไทย; score_outlier: พลังไทยรักชาติ
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,4,partylist,461.0,440.0,,score_outlier: ปวงชนไทย; score_outlier: กรีน; score_outlier: ไทยธรรม; score_outlier: แผ่นดินธรรม
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,5,partylist,477.0,463.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,6,partylist,485.0,466.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,7,partylist,420.0,405.0,,score_outlier: ฟิวชัน
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,8,partylist,413.0,399.0,,
+อำเภอควนขนุน/25ตำบลมะกอกเหนือ.pdf,9,partylist,142.0,153.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,0,partylist,316.0,301.0,,score_outlier: ไทยสร้างไทย
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,1,partylist,665.0,631.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,2,partylist,376.0,376.0,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,3,partylist,358.0,322.0,,score_outlier: อนาคตไทย; score_outlier: ไทยรวมไทย
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,4,partylist,413.0,,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,5,partylist,394.0,,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,6,partylist,,,,
+อำเภอกงหรา 2/46ตำบลสมหวัง.pdf,7,partylist,197.0,187.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,partylist,359.0,345.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,partylist,494.0,466.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,partylist,199.0,,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,partylist,298.0,177.0,,score_outlier: อนาคตไทย
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,partylist,453.0,403.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,partylist,499.0,471.0,,score_outlier: ฟิวชัน
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,partylist,361.0,348.0,,score_outlier: แรงงานสร้างชาติ
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,partylist,435.0,405.0,,score_outlier: กล้าธรรม; score_outlier: เครือข่ายชาวนาแห่งประเทศไทย; score_outlier: ไทยพิทักษ์ธรรม
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,partylist,270.0,270.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,partylist,283.0,271.0,,
+อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,partylist,359.0,348.0,,score_outlier: ครูไทยเพื่อประชาชน
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,partylist,404.0,385.0,,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,partylist,396.0,378.0,,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,2,partylist,537.0,,,score_outlier: ฟิวชัน; score_outlier: แรงงานสร้างชาติ
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,3,partylist,474.0,453.0,,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,4,partylist,451.0,431.0,,
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,5,partylist,476.0,476.0,,score_outlier: ฟิวชัน
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,6,partylist,552.0,,,score_outlier: ฟิวชัน; score_outlier: ประชาอาสาชาติ
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,partylist,537.0,519.0,,score_outlier: ไทยสร้างไทย; score_outlier: ไทยก้าวใหม่
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,partylist,375.0,360.0,,score_outlier: อนาคตไทย
+อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,9,partylist,496.0,416.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,0,partylist,622.0,,,score_outlier: ไทยสร้างไทย
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,1,partylist,346.0,330.0,,score_outlier: เสรีรวมไทย
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,2,partylist,575.0,549.0,,score_outlier: ท้องที่ไทย; score_outlier: ปวงชนไทย
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,3,partylist,680.0,,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,4,partylist,677.0,643.0,,score_outlier: ไทรวมพลัง; score_outlier: เป็นธรรม
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,5,partylist,417.0,403.0,,
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,6,partylist,434.0,414.0,,score_outlier: เพื่อบ้านเมือง
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,7,partylist,365.0,,,score_outlier: พลังเพื่อไทย; score_outlier: สังคมประชาธิปไดยไทย; score_outlier: ก้าวอิสระ; score_outlier: เพื่อชีวิตใหม่; score_outlier: ไทยก้าวหน้า; score_outlier: ประชากรไทย
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,0,partylist,512.0,,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,1,partylist,386.0,364.0,,score_outlier: ท้องที่ไทย
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,2,partylist,326.0,313.0,,score_outlier: ฟิวชัน
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,3,partylist,590.0,555.0,,score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,4,partylist,305.0,230.0,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,5,partylist,224.0,92.0,,single_party_dominance: ประชาธิปัตย์
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,6,partylist,223.0,,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,7,partylist,276.0,,,
+อำเภอควนขนุน/21ตำบลแหลมโตนด.pdf,8,partylist,232.0,223.0,,score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,0,partylist,262.0,248.0,,score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,1,partylist,596.0,559.0,,score_outlier: ปวงชนไทย; score_outlier: ไทยภักดี; score_outlier: ไทยธรรม; score_outlier: แผ่นดินธรรม; score_outlier: พลังประชารัฐ; score_outlier: โอกาสใหม่; score_outlier: ประชาไทย; score_outlier: ไทยสร้างไทย; score_outlier: พร้อม; score_outlier: เครือข่ายชาวนาแห่งประเทศไทย; score_outlier: ไทยพิทักษ์ธรรม; score_outlier: ความหวังใหม่; score_outlier: ไทยรวมไทย
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,2,partylist,216.0,236.0,,score_outlier: เพื่อบ้านเมือง
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,3,partylist,281.0,226.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,4,partylist,558.0,535.0,,score_outlier: รวมพลังประชาชน
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,5,partylist,22.0,208.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,6,partylist,700.0,600.0,,score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,7,partylist,347.0,338.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,8,partylist,471.0,406.0,,score_outlier: ฟิวชัน; score_outlier: ไทยก้าวใหม่
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,9,partylist,280.0,271.0,,
+อำเภอควนขนุน/26ตำบลโตนดด้วน.pdf,10,partylist,374.0,356.0,,score_outlier: ไทยภักดี

@@ -1,0 +1,3 @@
+﻿source_file,unit_index,form_type,status,cross_status,issues,stat_flags
+อำเภอควนขนุน/23ตำบลพนางตุง.pdf,9,partylist,FAIL,OK,sum(scores.values()) does not equal ballot_valid,score_outlier: ฟิวชัน; score_outlier: ไทรวมพลัง; score_outlier: ก้าวอิสระ; score_outlier: แรงงานสร้างชาติ; score_outlier: พลังประชารัฐ
+อำเภอควนขนุน/31ตำบลแพรกหา.pdf,7,partylist,FAIL,OK,sum(scores.values()) does not equal ballot_valid,score_outlier: กรีน; score_outlier: ไทยรวมไทย
