@@ -1,41 +1,63 @@
 ﻿source_file,unit_index,const_ballot_total,partylist_ballot_total,diff,cross_status,cross_issues
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,0,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,2,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,3,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,4,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,5,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,6,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,7,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,8,,,0.0,OK,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,9,,,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,404.0,667.0,-263.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,396.0,396.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,2,537.0,537.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,3,474.0,474.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,4,451.0,451.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,5,496.0,,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,6,552.0,552.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,637.0,637.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,375.0,375.0,0.0,OK,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,9,446.0,446.0,0.0,OK,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,359.0,2.0,357.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,494.0,2.0,492.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,198.0,2.0,196.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,298.0,860.0,-562.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,943.0,,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,499.0,499.0,0.0,OK,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,361.0,361.0,0.0,OK,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,105.0,,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,290.0,27.0,263.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,253.0,253.0,0.0,OK,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,357.0,,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,0,340.0,340.0,0.0,OK,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,603.0,603.0,0.0,OK,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,395.0,375.0,20.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,,144.0,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,549.0,,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,376.0,,,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,614.0,614.0,0.0,OK,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,343.0,2.0,341.0,MISMATCH,ballot_total differs between forms
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,339.0,339.0,0.0,OK,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,0,316.0,316.0,0.0,OK,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,1,665.0,665.0,0.0,OK,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,2,396.0,396.0,0.0,OK,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,3,359.0,358.0,1.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,4,413.0,,,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,5,2.0,374.0,-372.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,6,2.0,427.0,-425.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,7,197.0,197.0,0.0,OK,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,0,593.0,593.0,0.0,OK,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,1,500021.0,15.0,500006.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,2,655.0,2.0,653.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,3,351.0,301.0,50.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,4,999.0,399.0,600.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,5,2.0,429.0,-427.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,6,272.0,,,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,7,617.0,617.0,0.0,OK,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,8,75.0,375.0,-300.0,MISMATCH,ballot_total differs between forms
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,9,2.0,,,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,0,100.0,561.0,-461.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,1,399.0,399.0,0.0,OK,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,2,536.0,536.0,0.0,OK,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,3,2.0,22.0,-20.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,4,,417.0,,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,5,2.0,2.0,0.0,OK,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,6,59300.0,604.0,58696.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,7,26.0,,,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,8,2.0,233.0,-231.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,0,450.0,450.0,0.0,OK,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,1,2.0,379.0,-377.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,2,,134.0,,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,3,2.0,2.0,0.0,OK,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,4,2.0,300.0,-298.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,5,223.0,228.0,-5.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,6,2.0,2.0,0.0,OK,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,7,250.0,250.0,0.0,OK,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,0,619.0,619.0,0.0,OK,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,1,2.0,1493.0,-1491.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,2,501.0,501.0,0.0,OK,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,3,439.0,439.0,0.0,OK,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,4,314.0,,,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,5,493.0,477.0,16.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,6,406.0,12.0,394.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,7,571.0,2.0,569.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,8,47.0,479.0,-432.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,9,341.0,341.0,0.0,OK,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,10,427.0,427.0,0.0,OK,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,11,387.0,387.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,0,,105.0,,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,1,75.0,2.0,73.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,2,363.0,363.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,3,418.0,418.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,4,402.0,102.0,300.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,5,493.0,493.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,6,274.0,274.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,7,637.0,637.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,8,290.0,290.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,9,349.0,349.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,10,2.0,527.0,-525.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,11,245.0,24.0,221.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,12,204.0,204.0,0.0,OK,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,13,275.0,2.0,273.0,MISMATCH,ballot_total differs between forms
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,14,290.0,247.0,43.0,MISMATCH,ballot_total differs between forms

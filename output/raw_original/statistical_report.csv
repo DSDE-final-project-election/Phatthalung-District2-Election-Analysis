@@ -1,81 +1,125 @@
 ﻿source_file,unit_index,form_type,ballot_total,ballot_valid,turnout,stat_flags
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,0,constituency,,695.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,constituency,,689.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,2,constituency,,719.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,3,constituency,,475.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,4,constituency,,705.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,5,constituency,,692.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,6,constituency,,705.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,7,constituency,,692.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,8,constituency,,687.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,9,constituency,,699.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,constituency,404.0,397.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,constituency,396.0,384.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,2,constituency,537.0,524.0,,single_party_dominance: วรท เทอดวีระพงศ์; score_outlier: วรท เทอดวีระพงศ์
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,3,constituency,474.0,456.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,4,constituency,451.0,439.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,5,constituency,496.0,468.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,6,constituency,552.0,511.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,constituency,637.0,520.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,constituency,375.0,359.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,9,constituency,446.0,428.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,constituency,359.0,340.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,constituency,494.0,464.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,constituency,198.0,191.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,constituency,298.0,282.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,constituency,943.0,937.0,,ballot_total_outlier
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,constituency,499.0,478.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,constituency,361.0,349.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,constituency,105.0,412.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,constituency,290.0,278.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,constituency,253.0,272.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,constituency,357.0,341.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,0,constituency,340.0,335.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,constituency,603.0,583.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,constituency,395.0,326.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,constituency,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,constituency,549.0,531.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,constituency,376.0,369.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,constituency,614.0,602.0,,score_outlier: นิติศักดิ์ ธรรมเพชร
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,constituency,343.0,335.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,constituency,339.0,324.0,,score_outlier: สมเสริม ชูรักษ์
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,0,partylist,,1.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: ใหม่; single_party_dominance: มิติใหม่; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: อนาคตไทย; single_party_dominance: พลังเพื่อไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: ประชาชาติ; single_party_dominance: สร้างอนาคตไทย; single_party_dominance: ภูมิใจไทย; single_party_dominance: กล้าธรรม; single_party_dominance: พลังประชารัฐ; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,1,partylist,,,,score_outlier: รักชาติ; score_outlier: กล้าธรรม
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,2,partylist,,945.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,3,partylist,,6.0,,single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: ประชาธิปัตย์
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,4,partylist,,1.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: ใหม่; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ปวงชนไทย; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: แรงงานสร้างชาติ; single_party_dominance: ครูไทยเพื่อประชาชน; single_party_dominance: ประชาชาติ; single_party_dominance: รักชาติ; single_party_dominance: ภูมิใจไทย; single_party_dominance: กล้าธรรม; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,5,partylist,,1.0,,single_party_dominance: ใหม่; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ไทรวมพลัง; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: ประชาชาติ; single_party_dominance: รักชาติ; single_party_dominance: ภูมิใจไทย; single_party_dominance: ประชาชน; single_party_dominance: ไทยสร้างไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,6,partylist,,733.0,,score_outlier: ความหวังใหม่
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,7,partylist,,436.0,,
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,8,partylist,,1.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ก้าวอิสระ; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยภักดี; single_party_dominance: สร้างอนาคตไทย; single_party_dominance: ภูมิใจไทย; single_party_dominance: พลังธรรมใหม่; single_party_dominance: กรีน; single_party_dominance: กล้าธรรม; single_party_dominance: โอกาสใหม่; single_party_dominance: ประชาชน; single_party_dominance: ประชาไทย; single_party_dominance: ไทยสร้างไทย; score_outlier: เพื่อชาติไทย
-5-17/2 ผลนอกเขต เขต 2 1_10.pdf,9,partylist,,741.0,,score_outlier: พลังประชารัฐ
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,0,partylist,667.0,389.0,,score_outlier: รวมใจไทย
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,1,partylist,396.0,378.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,2,partylist,537.0,524.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,3,partylist,474.0,453.0,,score_outlier: ไทยพร้อม; score_outlier: พร้อม
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,4,partylist,451.0,431.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,5,partylist,,,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,6,partylist,552.0,525.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,7,partylist,637.0,519.0,,
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,8,partylist,375.0,360.0,,score_outlier: มิติใหม่
-อำเภอศรีบรรพต/39ตำบลเขาย่า.pdf,9,partylist,446.0,416.0,,single_party_dominance: เพื่อไทย; score_outlier: เพื่อไทย; score_outlier: ความหวังใหม่
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,0,partylist,2.0,345.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,1,partylist,2.0,466.0,,single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ท้องที่ไทย; single_party_dominance: อนาคตไทย; single_party_dominance: พลังเพื่อไทย; single_party_dominance: ไทยชนะ; single_party_dominance: พลังสังคมใหม่; single_party_dominance: ไทรวมพลัง; single_party_dominance: ก้าวอิสระ; single_party_dominance: ปวงชนไทย; single_party_dominance: วิชชั่นใหม่; single_party_dominance: เพื่อชีวิตใหม่; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ไทยก้าวหน้า; single_party_dominance: ไทยภักดี; single_party_dominance: แรงงานสร้างชาติ; single_party_dominance: ประชากรไทย; single_party_dominance: ครูไทยเพื่อประชาชน; single_party_dominance: ประชาชาติ; single_party_dominance: สร้างอนาคตไทย; single_party_dominance: ประชาชน; score_outlier: เสรีรวมไทย; score_outlier: รวมพลังประชาชน; score_outlier: ท้องที่ไทย; score_outlier: อนาคตไทย; score_outlier: พลังเพื่อไทย; score_outlier: ไทยชนะ; score_outlier: พลังสังคมใหม่; score_outlier: ไทรวมพลัง; score_outlier: ก้าวอิสระ; score_outlier: ปวงชนไทย; score_outlier: เพื่อชีวิตใหม่; score_outlier: คลองไทย; score_outlier: ประชาธิปัตย์; score_outlier: ไทยก้าวหน้า; score_outlier: ไทยภักดี; score_outlier: แรงงานสร้างชาติ; score_outlier: ประชากรไทย; score_outlier: ครูไทยเพื่อประชาชน; score_outlier: ประชาชาติ; score_outlier: สร้างอนาคตไทย; score_outlier: ประชาชน; score_outlier: เพื่อบ้านเมือง; score_outlier: พลังไทยรักชาติ
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,2,partylist,2.0,187.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,3,partylist,860.0,798.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,4,partylist,,,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,5,partylist,499.0,471.0,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,6,partylist,361.0,348.0,,single_party_dominance: ประชาธิปัตย์
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,7,partylist,,,,
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,8,partylist,27.0,28.0,,single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย; score_outlier: กรีน
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,9,partylist,253.0,247.0,,score_outlier: โอกาสใหม่
-อำเภอศรีบรรพต/40ตำบลเขาปู่.pdf,10,partylist,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,0,partylist,340.0,329.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,1,partylist,603.0,582.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,2,partylist,375.0,4.0,,single_party_dominance: ไทยทรัพย์ทวี; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: พลวัต; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,3,partylist,144.0,143.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: แผ่นดินธรรม
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,4,partylist,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,5,partylist,,,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,6,partylist,614.0,602.0,,score_outlier: มิติใหม่; score_outlier: เศรษฐกิจ
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,7,partylist,2.0,0.0,,
-อำเภอศรีบรรพต/41ตำบลตะแพน.pdf,8,partylist,339.0,320.0,,score_outlier: ไทยพร้อม; score_outlier: พร้อม
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,0,constituency,316.0,308.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,1,constituency,665.0,625.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,2,constituency,396.0,379.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,3,constituency,359.0,332.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,4,constituency,413.0,392.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,5,constituency,2.0,345.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,6,constituency,2.0,411.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,7,constituency,197.0,186.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,0,constituency,593.0,565.0,,single_party_dominance: วรท เทอดวีระพงศ์; score_outlier: วรท เทอดวีระพงศ์
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,1,constituency,500021.0,3317.0,,ballot_total_outlier
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,2,constituency,655.0,619.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,3,constituency,351.0,347.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,4,constituency,999.0,383.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,5,constituency,2.0,411.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,6,constituency,272.0,264.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,7,constituency,617.0,590.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,8,constituency,75.0,727.0,,score_outlier: อธิคม ขุนแก้ว
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,9,constituency,2.0,490.0,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,0,constituency,100.0,100.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,1,constituency,399.0,388.0,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,2,constituency,536.0,511.0,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,3,constituency,2.0,214.0,,single_party_dominance: วรท เทอดวีระพงศ์
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,4,constituency,,,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,5,constituency,2.0,568.0,,score_outlier: อธิคม ขุนแก้ว
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,6,constituency,59300.0,581.0,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,7,constituency,26.0,25.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: นิติศักดิ์ ธรรมเพชร; score_outlier: อธิคม ขุนแก้ว
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,8,constituency,2.0,225.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,0,constituency,450.0,439.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,1,constituency,2.0,363.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,2,constituency,,,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,3,constituency,2.0,536.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,4,constituency,2.0,290.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,5,constituency,223.0,214.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,6,constituency,2.0,285.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,7,constituency,250.0,242.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,0,constituency,619.0,582.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,1,constituency,2.0,1.0,,single_party_dominance: วรท เทอดวีระพงศ์; single_party_dominance: ศุภกร ขุนชิต; single_party_dominance: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง; single_party_dominance: ภพเอกอัคร อินทรโม; single_party_dominance: สมเสริม ชูรักษ์; single_party_dominance: นิติศักดิ์ ธรรมเพชร; score_outlier: ศุภกร ขุนชิต; score_outlier: พ.ต.อ.พงศ์พสิษฐ์ ทองด้วง; score_outlier: ภพเอกอัคร อินทรโม
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,2,constituency,501.0,482.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,3,constituency,439.0,422.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,4,constituency,314.0,298.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,5,constituency,493.0,448.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,6,constituency,406.0,395.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,7,constituency,571.0,576.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,8,constituency,47.0,47.0,,single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,9,constituency,341.0,336.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,10,constituency,427.0,413.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,11,constituency,387.0,362.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,0,constituency,,,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,1,constituency,75.0,80.0,,single_party_dominance: นิติศักดิ์ ธรรมเพชร
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,2,constituency,363.0,342.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,3,constituency,418.0,371.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,4,constituency,402.0,387.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,5,constituency,493.0,461.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,6,constituency,274.0,255.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,7,constituency,637.0,609.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,8,constituency,290.0,277.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,9,constituency,349.0,340.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,10,constituency,2.0,519.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,11,constituency,245.0,233.0,,single_party_dominance: นิติศักดิ์ ธรรมเพชร; score_outlier: ศุภกร ขุนชิต; score_outlier: ภพเอกอัคร อินทรโม; score_outlier: นิติศักดิ์ ธรรมเพชร
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,12,constituency,204.0,198.0,,score_outlier: สมเสริม ชูรักษ์
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,13,constituency,275.0,260.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,14,constituency,290.0,242.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,0,partylist,316.0,301.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,1,partylist,665.0,631.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,2,partylist,396.0,378.0,,single_party_dominance: ประชาธิปัตย์
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,3,partylist,358.0,322.0,,score_outlier: ไทยพิทักษ์ธรรม; score_outlier: ไทยรวมไทย
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,4,partylist,,,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,5,partylist,374.0,347.0,,score_outlier: เครือข่ายชาวนาแห่งประเทศไทย
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,6,partylist,427.0,404.0,,
+อำเภอกงหรา2/46ตำบลสมหวัง.pdf,7,partylist,197.0,187.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,0,partylist,593.0,562.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: ประชาธิปัตย์; score_outlier: ประชากรไทย
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,1,partylist,15.0,16.0,,single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,2,partylist,2.0,631.0,,score_outlier: ความหวังใหม่
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,3,partylist,301.0,309.0,,score_outlier: ประชาชาติ
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,4,partylist,399.0,383.0,,score_outlier: มิติใหม่; score_outlier: รวมใจไทย; score_outlier: ประชาชาติ; score_outlier: ประชาไทย
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,5,partylist,429.0,414.0,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,6,partylist,,,,
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,7,partylist,617.0,592.0,,score_outlier: ไทยก้าวหน้า
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,8,partylist,375.0,3620.0,,score_outlier: ใหม่; score_outlier: รวมใจไทย; score_outlier: ภูมิใจไทย; score_outlier: พลังประชารัฐ; score_outlier: ไทยสร้างไทย; score_outlier: เพื่อบ้านเมือง
+อำเภอกงหรา2/47ตำบลชะรัด.pdf,9,partylist,,,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,0,partylist,561.0,539.0,,score_outlier: โอกาสใหม่
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,1,partylist,399.0,380.0,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,2,partylist,536.0,508.0,,single_party_dominance: เพื่อชาติไทย; single_party_dominance: ประชาธิปัตย์; score_outlier: เพื่อชาติไทย; score_outlier: คลองไทย; score_outlier: ไทยภักดี; score_outlier: ไทยพร้อม; score_outlier: พร้อม
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,3,partylist,22.0,208.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: ไทยชนะ; score_outlier: ประชาชาติ
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,4,partylist,417.0,401.0,,single_party_dominance: เศรษฐกิจ
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,5,partylist,2.0,567.0,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,6,partylist,604.0,567.0,,score_outlier: คลองไทย; score_outlier: แรงงานสร้างชาติ
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,7,partylist,,,,
+อำเภอศรีนครินทร์/42ตำบลลำสินธ์ุ.pdf,8,partylist,233.0,214.0,,score_outlier: ใหม่
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,0,partylist,450.0,421.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,1,partylist,379.0,366.0,,single_party_dominance: เศรษฐกิจ; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ท้องที่ไทย; single_party_dominance: ประชาชน; score_outlier: เศรษฐกิจ; score_outlier: รวมพลังประชาชน; score_outlier: ท้องที่ไทย; score_outlier: ประชาชน
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,2,partylist,134.0,22.0,,single_party_dominance: เศรษฐกิจ; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย; single_party_dominance: พลังธรรมใหม่; single_party_dominance: เป็นธรรม; score_outlier: พลังธรรมใหม่; score_outlier: เป็นธรรม
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,3,partylist,2.0,1.0,,single_party_dominance: ใหม่; single_party_dominance: รวมใจไทย; single_party_dominance: รวมไทยสร้างชาติ; single_party_dominance: พลวัต; single_party_dominance: เพื่อไทย; single_party_dominance: เศรษฐกิจ; single_party_dominance: เสรีรวมไทย; single_party_dominance: รวมพลังประชาชน; single_party_dominance: ปวงชนไทย; single_party_dominance: เพื่อชีวิตใหม่; single_party_dominance: คลองไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: แรงงานสร้างชาติ; single_party_dominance: ประชาชาติ; single_party_dominance: รักชาติ; single_party_dominance: ภูมิใจไทย; single_party_dominance: กรีน; single_party_dominance: กล้าธรรม; single_party_dominance: เป็นธรรม; single_party_dominance: ประชาชน; single_party_dominance: ประชาไทย; single_party_dominance: พลังไทยรักชาติ; score_outlier: ปวงชนไทย; score_outlier: รักชาติ; score_outlier: พลังไทยรักชาติ
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,4,partylist,300.0,295.0,,score_outlier: รวมไทยสร้างชาติ
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,5,partylist,228.0,219.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,6,partylist,2.0,292.0,,
+อำเภอศรีนครินทร์/43ตำบลอ่างทอง.pdf,7,partylist,250.0,229.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,0,partylist,619.0,576.0,,score_outlier: ปวงชนไทย
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,1,partylist,1493.0,1486.0,,ballot_total_outlier; single_party_dominance: เพื่อไทย; score_outlier: เพื่อไทย; score_outlier: ไทยภักดี; score_outlier: เพื่อบ้านเมือง
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,2,partylist,501.0,468.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,3,partylist,439.0,413.0,,single_party_dominance: เพื่อชีวิตใหม่; score_outlier: เพื่อชีวิตใหม่
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,4,partylist,,,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,5,partylist,477.0,474.0,,single_party_dominance: เศรษฐกิจ; score_outlier: เสรีรวมไทย
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,6,partylist,12.0,9.0,,single_party_dominance: เพื่อไทย; single_party_dominance: ประชาธิปัตย์; single_party_dominance: ภูมิใจไทย; score_outlier: ไทยธรรม
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,7,partylist,2.0,574.0,,score_outlier: ไทรวมพลัง; score_outlier: ความหวังใหม่
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,8,partylist,479.0,409.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: ไทยชนะ; score_outlier: พลังสังคมใหม่; score_outlier: ประชาธิปัตย์; score_outlier: ครูไทยเพื่อประชาชน; score_outlier: ภูมิใจไทย; score_outlier: กล้าธรรม; score_outlier: ไทยสร้างไทย
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,9,partylist,341.0,327.0,,
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,10,partylist,427.0,409.0,,score_outlier: ไทยธรรม
+อำเภอศรีนครินทร์/44ตำบลบ้านนา.pdf,11,partylist,387.0,361.0,,score_outlier: ประชากรไทย; score_outlier: แผ่นดินธรรม
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,0,partylist,105.0,100.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: ไทยพิทักษ์ธรรม
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,1,partylist,2.0,328.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,2,partylist,363.0,339.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,3,partylist,418.0,399.0,,score_outlier: รวมใจไทย; score_outlier: อนาคตไทย; score_outlier: ก้าวอิสระ
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,4,partylist,102.0,98.0,,single_party_dominance: ประชาธิปัตย์
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,5,partylist,493.0,455.0,,score_outlier: ปวงชนไทย; score_outlier: สร้างอนาคตไทย
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,6,partylist,274.0,259.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,7,partylist,637.0,604.0,,score_outlier: ไทยก้าวหน้า
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,8,partylist,290.0,274.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,9,partylist,349.0,331.0,,
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,10,partylist,527.0,526.0,,single_party_dominance: ประชาธิปัตย์; score_outlier: ไทรวมพลัง
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,11,partylist,24.0,25.0,,single_party_dominance: พลวัต; single_party_dominance: ประชาธิปัตย์; score_outlier: พลวัต; score_outlier: พลังเพื่อไทย; score_outlier: ไทยชนะ
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,12,partylist,204.0,245.0,,score_outlier: ไทยก้าวหน้า; score_outlier: กรีน
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,13,partylist,2.0,260.0,,score_outlier: เครือข่ายชาวนาแห่งประเทศไทย
+อำเภอศรีนครินทร์/45ตำบลชุมพล.pdf,14,partylist,247.0,242.0,,
