@@ -35,7 +35,13 @@ python convert_json_to_csv.py --input-dir electionJson --output-dir . --scores-m
 
 Fixed columns (always present):
 
-- `district`, `subdistrict`, `unit_index`, `form_type`
+- `district`, `subdistrict`, `unit_index`, `form_type`, `vote_phase`
 - `ballot_total`, `ballot_valid`, `ballot_invalid`, `ballot_no_vote`
+
+`vote_phase` is inferred from the JSON filename:
+
+- `*_5-16.json` -> `in_district_advance`
+- `*_5-17.json` -> `out_of_district_advance`
+- otherwise -> `election_day`
 
 Score columns are the union of all keys in `scores` across files.

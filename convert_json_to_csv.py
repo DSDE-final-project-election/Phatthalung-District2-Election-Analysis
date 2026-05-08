@@ -16,6 +16,7 @@ FIXED_FIELDS = [
     "subdistrict",
     "unit_index",
     "form_type",
+    "vote_phase",
     "ballot_total",
     "ballot_valid",
     "ballot_invalid",
@@ -59,6 +60,15 @@ def infer_form_type(record: Dict[str, Any], path: Path) -> str:
         return "constituency"
 
     return "unknown"
+
+
+def infer_vote_phase(source_path: str) -> str:
+    filename = Path(source_path).name.lower()
+    if "5-16" in filename:
+        return "in_district_advance"
+    if "5-17" in filename:
+        return "out_of_district_advance"
+    return "election_day"
 
 
 def normalize_score(value: Any) -> Tuple[bool, Any]:
@@ -146,6 +156,9 @@ def build_row(
     row["subdistrict"] = subdistrict
     for field in FIXED_FIELDS:
         if field in ("district", "subdistrict"):
+            continue
+        if field == "vote_phase":
+            row[field] = infer_vote_phase(record.get("_source_path", ""))
             continue
         row[field] = record.get(field, "")
 
